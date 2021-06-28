@@ -3,6 +3,7 @@ require("dotenv").config();
 
 const app = express();
 
+// get
 app.get("/public", function (req, res) {
   res.json({
     message: "Hello from a public API!"
