@@ -18,6 +18,7 @@ class App extends Component {
       <>
         <Nav auth={this.auth} />
         <div className="body">
+          <h1>Auth0</h1>
           <Route
             path="/"
             exact
