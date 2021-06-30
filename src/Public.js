@@ -4,7 +4,6 @@ class Public extends Component {
   state = {
     message: ""
   };
-
   componentDidMount() {
     fetch("/public")
       .then(response => {
